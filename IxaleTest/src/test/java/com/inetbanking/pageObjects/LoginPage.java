@@ -21,11 +21,9 @@ public class LoginPage {
 	WebElement txtUserName;
 
 	@FindBy(name = "password")
-	@CacheLookup
 	WebElement txtpassword;
 
 	@FindBy(name = "btnLogin")
-	@CacheLookup
 	WebElement btnLogin;
 
 	public void setUserName(String uname) {
